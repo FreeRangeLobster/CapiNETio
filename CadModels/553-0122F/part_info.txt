@@ -1,0 +1,9 @@
+Manufacturer=Dialight
+PartNumber=553-0122F
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=3.2
+Released=2020-04-13 14:53:03
+Downloaded=2026-01-13 07:07:29
+3D=Y

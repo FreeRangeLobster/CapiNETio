@@ -1,0 +1,9 @@
+Manufacturer=Diptronics
+PartNumber=DHNF-04F-T-V-T/R
+PartCategory=Switch
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2020-03-04 12:40:18
+Downloaded=2026-01-15 07:05:04
+3D=Y

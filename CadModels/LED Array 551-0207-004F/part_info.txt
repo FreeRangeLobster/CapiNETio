@@ -1,0 +1,9 @@
+Manufacturer=Dialight
+PartNumber=551-0207-004F
+PartCategory=LED
+PackageCategory=Other
+PinCount=8
+Version=1.6
+Released=2022-04-13 11:44:35
+Downloaded=2026-01-14 07:03:05
+3D=N

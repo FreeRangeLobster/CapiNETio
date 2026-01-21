@@ -1,0 +1,66 @@
+PCBNEW-LibModule-V1  2026-01-02 19:25:16
+# encoding utf-8
+Units mm
+$INDEX
+1963450
+$EndINDEX
+$MODULE 1963450
+Po 0 0 0 15 69581b9c 00000000 ~~
+Li 1963450
+Cd 1963450
+Kw Connector
+Sc 0
+At STD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "J**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "1963450"
+DS -2.2 -1.2 12.2 -1.2 0.2 24
+DS 12.2 -1.2 12.2 8.9 0.2 24
+DS 12.2 8.9 -2.2 8.9 0.2 24
+DS -2.2 8.9 -2.2 -1.2 0.2 24
+DS 12.2 -1.2 12.2 8.9 0.1 21
+DS 12.2 8.9 -2.2 8.9 0.1 21
+DS -2.2 8.9 -2.2 -1.2 0.1 21
+DS -3.75 -2.2 13.2 -2.2 0.05 24
+DS 13.2 -2.2 13.2 9.9 0.05 24
+DS 13.2 9.9 -3.75 9.9 0.05 24
+DS -3.75 9.9 -3.75 -2.2 0.05 24
+DC -2.85 0 -2.9 0 0.254 21
+$PAD
+Po 0 0
+Sh "1" R 2.1 2.1 0 0 900
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.5 0
+Sh "2" C 2.1 2.1 0 0 900
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 5 0
+Sh "3" C 2.1 2.1 0 0 900
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 7.5 0
+Sh "4" C 2.1 2.1 0 0 900
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 10 0
+Sh "5" C 2.1 2.1 0 0 900
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$EndMODULE 1963450
+$EndLIBRARY

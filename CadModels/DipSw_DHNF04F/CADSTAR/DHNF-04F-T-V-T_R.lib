@@ -1,0 +1,16 @@
+.DHNF-04F-T-V-T_R :1 ;DIP Switches / SIP Switches Half Pitch Dip switch 1.6mm height
+DHNF04FTVTR
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="COM_3" 4="COM_4" 5="NO_1" 6="NO_2" 7="NO_3" 8="NO_4"
+*MXP 8
+*DFN DHNF-04F-T-V-T_R
+~!Mouser Part Number (113-DHNF04FTVTR)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=113-DHNF04FTVTR)
+~!Manufacturer_Name (Diptronics)
+~!Manufacturer_Part_Number (DHNF-04F-T-V-T/R)
+~!Link Datasheet (https://componentsearchengine.com//DHNF-04F-T-V-T_R.pdf)
+~!Height (1.65mm)
+~!3D_Model (DHNF-04F-T-V-T_R)
+DHNF-04F-T-V-T_R
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

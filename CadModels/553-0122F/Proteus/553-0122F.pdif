@@ -1,0 +1,125 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "553-0122F"
+   (description "553 Series CBI 3mm 2hx1w G, Cath R")
+   (family "DIO")
+   (package "5530122F")
+   (attribute "Datasheet Link" "https://s3-us-west-2.amazonaws.com/catsy.557/C17277.pdf")
+   (attribute "Geometry.Height" "9.65mm")
+   (attribute "Mouser Part Number" "645-553-0122F")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dialight/553-0122F?qs=0KZIkTEbAAuchVNYUHfDmw%3D%3D")
+   (attribute "Manufacturer_Name" "Dialight")
+   (attribute "Manufacturer_Part_Number" "553-0122F")
+   (gate
+    (symbol "553-0122F")
+    (pin "A_1" 1 PS)
+    (pin "K_1" 2 PS)
+    (pin "A_2" 3 PS)
+    (pin "K_2" 4 PS)
+   )
+  )
+  (symbol "553-0122F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "5530122F"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.89 3.69)
+      (pt 3.43 3.69)
+      (pt 3.43 -4.44)
+      (pt -0.89 -4.44)
+      (pt -0.89 3.69))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.89 4.69)
+      (pt 4.43 4.69)
+      (pt 4.43 -6.74)
+      (pt -1.89 -6.74)
+      (pt -1.89 4.69))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.57 -4.44)
+      (pt -0.03 -4.44)
+      (arc (pt -0.030 -4.440) (pt -0.030 -5.740) (pt 2.570 -3.140) (start 180.0) (sweep 180.0))
+      (pt 2.57 -4.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.89 -1.375)
+      (pt -0.89 -4.375)
+      (pt -0.89 -4.44)
+      (pt 3.43 -4.44)
+      (pt 3.43 -1.375))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.89 3.69)
+      (pt 3.43 3.69))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 0.000 2.540) (padstack 0))
+   (leg 4 (pt 2.540 2.540) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "553-0122F.stp"
+    (euler 90 0 0)
+    (offset 1.149999976158142 -4.46999979019165 8.960000038146973)
+   )
+  )
+ )
+)

@@ -1,0 +1,234 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "551-0207-004F"
+   (description "Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V")
+   (family "DIO")
+   (package "5510207004F")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "7.11mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Dialight")
+   (attribute "Manufacturer_Part_Number" "551-0207-004F")
+   (gate
+    (symbol "551-0207-004F")
+    (pin "K_GREEN_1" 1 PS)
+    (pin "A_GREEN_1" 2 PS)
+    (pin "K_GREEN_2" 3 PS)
+    (pin "A_GREEN_2" 4 PS)
+    (pin "K_GREEN_3" 5 PS)
+    (pin "A_GREEN_3" 6 PS)
+    (pin "K_GREEN_4" 7 PS)
+    (pin "A_GREEN_4" 8 PS)
+   )
+  )
+  (symbol "551-0207-004F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "5510207004F"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.885 1.91)
+      (pt -16.385 1.91)
+      (pt -16.385 -4.44)
+      (pt 0.885 -4.44)
+      (pt 0.885 1.91))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.885 2.91)
+      (pt -17.385 2.91)
+      (pt -17.385 -7.965)
+      (pt 1.885 -7.965)
+      (pt 1.885 2.91))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.255 -4.44)
+      (pt 0.255 -5.44)
+      (arc (pt 0.255 -5.440) (pt -2.795 -6.965) (pt 0.255 -3.915) (start -180.0) (sweep .0))
+      (pt -2.795 -5.44)
+      (pt -2.795 -4.44))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.065 -4.44)
+      (pt -4.065 -5.44)
+      (arc (pt -4.065 -5.440) (pt -7.115 -6.965) (pt -4.065 -3.915) (start -180.0) (sweep .0))
+      (pt -7.115 -5.44)
+      (pt -7.115 -4.44))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -8.385 -4.44)
+      (pt -8.385 -5.44)
+      (arc (pt -8.385 -5.440) (pt -11.435 -6.965) (pt -8.385 -3.915) (start -180.0) (sweep .0))
+      (pt -11.435 -5.44)
+      (pt -11.435 -4.44))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -12.705 -4.44)
+      (pt -12.705 -5.44)
+      (arc (pt -12.705 -5.440) (pt -15.755 -6.965) (pt -12.705 -3.915) (start -180.0) (sweep .0))
+      (pt -15.755 -5.44)
+      (pt -15.755 -4.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.45 0.072)
+      (arc (pt 1.450 0.072) (pt 1.350 0.022) (pt 1.450 0.122) (start 180.0) (sweep .0))
+      (pt 1.35 0.072)
+      (arc (pt 1.350 0.072) (pt 1.350 0.022) (pt 1.450 0.122) (start 180.0) (sweep 180.0))
+      (pt 1.45 0.072))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.885 1.072)
+      (pt 0.885 1.91)
+      (pt -16.385 1.91)
+      (pt -16.385 1.072))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.885 -1.128)
+      (pt 0.885 -4.44)
+      (pt -16.385 -4.44)
+      (pt -16.385 -1.128))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.255 -4.44)
+      (pt 0.255 -5.44)
+      (arc (pt 0.255 -5.440) (pt -2.795 -6.965) (pt 0.255 -3.915) (start -180.0) (sweep .0))
+      (pt -2.795 -5.44)
+      (pt -2.795 -4.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.065 -4.44)
+      (pt -4.065 -5.44)
+      (arc (pt -4.065 -5.440) (pt -7.115 -6.965) (pt -4.065 -3.915) (start -180.0) (sweep .0))
+      (pt -7.115 -5.44)
+      (pt -7.115 -4.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.385 -4.44)
+      (pt -8.385 -5.44)
+      (arc (pt -8.385 -5.440) (pt -11.435 -6.965) (pt -8.385 -3.915) (start -180.0) (sweep .0))
+      (pt -11.435 -5.44)
+      (pt -11.435 -4.44))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.705 -4.44)
+      (pt -12.705 -5.44)
+      (arc (pt -12.705 -5.440) (pt -15.755 -6.965) (pt -12.705 -3.915) (start -180.0) (sweep .0))
+      (pt -15.755 -5.44)
+      (pt -15.755 -4.44))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -2.540 0.000) (padstack 0))
+   (leg 3 (pt -4.320 0.000) (padstack 0))
+   (leg 4 (pt -6.860 0.000) (padstack 0))
+   (leg 5 (pt -8.640 0.000) (padstack 0))
+   (leg 6 (pt -11.180 0.000) (padstack 0))
+   (leg 7 (pt -12.960 0.000) (padstack 0))
+   (leg 8 (pt -15.500 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.97)
+    (plated true)
+    (pad (layer TCOP) (round 1.509))
+    (pad (layer INNER) (round 1.509))
+    (pad (layer BCOP) (round 1.509))
+   )
+   (padstack 1
+    (hole 0.97)
+    (plated true)
+    (pad (layer TCOP) (square 1.509))
+    (pad (layer INNER) (round 1.509))
+    (pad (layer BCOP) (square 1.509))
+   )
+  )
+ )
+)

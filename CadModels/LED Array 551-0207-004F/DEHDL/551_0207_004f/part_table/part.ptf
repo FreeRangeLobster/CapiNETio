@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '551_0207_004F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Dialight", "551-0207-004F" (!) = "", "5510207004F", "Other", "", "", "Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V", "", "7.11 mm"
+END_PART
+
+END.

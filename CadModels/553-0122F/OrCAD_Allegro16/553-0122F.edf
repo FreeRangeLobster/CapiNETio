@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &553_0122F "553_0122F")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 01 13 07 07 29)
+      (dataOrigin "924615/60866/2.50/4/2/LED")
+      (program "SamacSys ECAD Model 553_0122F"
+        (version "3.2"))))
+  (library
+  (rename &553_0122F "553_0122F")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &553_0122F "553_0122F")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "553_0122F"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "5530122F"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "645-553-0122F"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Dialight/553-0122F?qs=0KZIkTEbAAuchVNYUHfDmw%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Dialight"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "553-0122F"))
+          (property (rename &Description "Description") (string "553 Series CBI 3mm 2hx1w G, Cath R"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://s3-us-west-2.amazonaws.com/catsy.557/C17277.pdf"))
+          (property (rename &Height "Height") (string "9.65 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "553_0122F"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &A_1 "A_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &K_1 "K_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &A_2 "A_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &K_2 "K_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &A_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &K_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -200) (pt 800 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -200))))
+            )
+            (portImplementation
+              (name &A_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &K_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -100) (pt 800 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 600 0)
+                  (pt 600 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 30))))
+          )
+        )
+      )
+    )
+  )
+)

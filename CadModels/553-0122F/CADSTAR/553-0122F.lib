@@ -1,0 +1,16 @@
+.553-0122F :1 ;553 Series CBI 3mm 2hx1w G, Cath R
+"5530122F"
+*STM LED
+*NGS
+*PLB 1="A_1" 2="K_1" 3="A_2" 4="K_2"
+*MXP 4
+*DFN 553-0122F
+~!Mouser Part Number (645-553-0122F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Dialight/553-0122F?qs=0KZIkTEbAAuchVNYUHfDmw%3D%3D)
+~!Manufacturer_Name (Dialight)
+~!Manufacturer_Part_Number (553-0122F)
+~!Link Datasheet (https://s3-us-west-2.amazonaws.com/catsy.557/C17277.pdf)
+~!Height (9.65mm)
+~!3D_Model (553-0122F)
+"553-0122F"
+1.1!U 2.1!U 3.1!U 4.1!U 

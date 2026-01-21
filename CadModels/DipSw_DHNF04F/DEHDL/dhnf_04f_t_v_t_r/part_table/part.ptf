@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DHNF_04F_T_V_T_R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diptronics", "DHNF-04F-T-V-T/R" (!) = "", "DHNF04FTVTR", "Other", "113-DHNF04FTVTR", "https://www.mouser.com/Search/Refine.aspx?Keyword=113-DHNF04FTVTR", "DIP Switches / SIP Switches Half Pitch Dip switch 1.6mm height", "https://componentsearchengine.com//DHNF-04F-T-V-T_R.pdf", "1.65 mm"
+END_PART
+
+END.

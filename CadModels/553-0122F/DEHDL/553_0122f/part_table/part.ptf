@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '553_0122F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Dialight", "553-0122F" (!) = "", "5530122F", "Other", "645-553-0122F", "https://www.mouser.co.uk/ProductDetail/Dialight/553-0122F?qs=0KZIkTEbAAuchVNYUHfDmw%3D%3D", "553 Series CBI 3mm 2hx1w G, Cath R", "https://s3-us-west-2.amazonaws.com/catsy.557/C17277.pdf", "9.65 mm"
+END_PART
+
+END.

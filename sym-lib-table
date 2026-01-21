@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SN65HVD1781D")(type "KiCad")(uri "${KIPRJMOD}/CadModels/SN65HVD1781D/SN65HVD1781D.kicad_sym")(options "")(descr ""))
+  (lib (name "3570-1333-051")(type "KiCad")(uri "${KIPRJMOD}/CadModels/3570-1333-051/2025-12-29_23-11-22.kicad_sym")(options "")(descr ""))
+  (lib (name "1963450")(type "KiCad")(uri "${KIPRJMOD}/CadModels/1963450PCBConnector/1963450.kicad_sym")(options "")(descr "PCB Connector"))
+  (lib (name "LED 553-0122F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/553-0122F/KiCad/553-0122F.kicad_sym")(options "")(descr ""))
+  (lib (name "LED Array 551-0207-004F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/LED Array 551-0207-004F/KiCad/551-0207-004F.kicad_sym")(options "")(descr "LED array through hole"))
+  (lib (name "DipSw_DHNF04F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/DipSw_DHNF04F/KiCad/DHNF-04F-T-V-T_R.kicad_sym")(options "")(descr "4 pole dip switch smd"))
+)

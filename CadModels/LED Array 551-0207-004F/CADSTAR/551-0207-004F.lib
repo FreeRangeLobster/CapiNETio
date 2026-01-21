@@ -1,0 +1,15 @@
+.551-0207-004F :1 ;Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V
+"5510207004F"
+*STM LED
+*NGS
+*PLB 1="K_GREEN_1" 2="A_GREEN_1" 3="K_GREEN_2" 4="A_GREEN_2" 5="K_GREEN_3" 6="A_GREEN_3" 7="K_GREEN_4" 8="A_GREEN_4"
+*MXP 8
+*DFN 551-0207-004F
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Dialight)
+~!Manufacturer_Part_Number (551-0207-004F)
+~!Link Datasheet (-)
+~!Height (7.11mm)
+"551-0207-004F"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

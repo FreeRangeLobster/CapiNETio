@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1963450
+D PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 4 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: MC 0,5/..-G-THT, pitch: 2.5 mm, mounting: THR soldering, pin layout: Linear pinning, solder pin [P]: 3.8 mm, Stecksystem: MICRO COMBICON - FK-MC 0,5, Locking: without, type of packaging: packed in cardboard, User information and d
+K
+F http://www.phoenixcontact.com/gb/produkte/1963450
+$ENDCMP
+#
+#End Doc Library
