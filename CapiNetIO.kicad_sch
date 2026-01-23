@@ -6927,12 +6927,6 @@
 		(uuid "11ba2129-81c3-41e9-820a-391d7e0ebd68")
 	)
 	(junction
-		(at 358.14 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "214f7e19-cce8-4014-94fc-be65809a09fb")
-	)
-	(junction
 		(at 120.65 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6991,12 +6985,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "408b9643-1f90-48a3-9884-feb159c5185c")
-	)
-	(junction
-		(at 354.33 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4394025d-5e4b-4b53-a738-6556ee827c54")
 	)
 	(junction
 		(at 132.08 45.72)
@@ -7101,6 +7089,18 @@
 		(uuid "a4ee1e2c-dcbe-4b11-9086-fa3671cdb52c")
 	)
 	(junction
+		(at 358.14 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6224f02-a7e1-4688-94aa-43ffa7b10662")
+	)
+	(junction
+		(at 354.33 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b211848d-9e84-4156-af4b-c20d301ed4cf")
+	)
+	(junction
 		(at 160.02 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7128,7 +7128,7 @@
 		(at 332.74 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c670b964-7066-41c9-a8a8-2c525899544d")
+		(uuid "c3a57012-a3d4-4a75-82e7-37b1db01bb15")
 	)
 	(junction
 		(at 189.23 54.61)
@@ -7526,6 +7526,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 168.91) (xy 337.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffd26bb-9b9e-490a-97a8-da24ff91ad16")
+	)
+	(wire
+		(pts
 			(xy 309.88 134.62) (xy 309.88 191.77)
 		)
 		(stroke
@@ -7623,26 +7633,6 @@
 			(type default)
 		)
 		(uuid "1754cd9d-b096-4365-86a5-34a4cca4f30e")
-	)
-	(wire
-		(pts
-			(xy 332.74 168.91) (xy 332.74 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17629e8f-6e31-4126-8531-1c8d1d50c473")
-	)
-	(wire
-		(pts
-			(xy 332.74 189.23) (xy 332.74 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c17990-26c4-44d8-b9ef-1b95fc5b7611")
 	)
 	(wire
 		(pts
@@ -8156,6 +8146,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 163.83) (xy 358.14 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4389ca37-a2d2-41a7-b9e1-e4ff1a8253a5")
+	)
+	(wire
+		(pts
 			(xy 379.73 182.88) (xy 381 182.88)
 		)
 		(stroke
@@ -8213,16 +8213,6 @@
 			(type default)
 		)
 		(uuid "4a9f4a94-dcf1-4233-9285-da150808edb6")
-	)
-	(wire
-		(pts
-			(xy 353.06 184.15) (xy 354.33 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae5a99f-9c9d-443f-a53a-30091e955c08")
 	)
 	(wire
 		(pts
@@ -8496,16 +8486,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 189.23) (xy 337.82 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bedb4b7-fe08-4930-9660-e4e22de3d39e")
-	)
-	(wire
-		(pts
 			(xy 31.75 36.83) (xy 44.45 36.83)
 		)
 		(stroke
@@ -8543,6 +8523,16 @@
 			(type default)
 		)
 		(uuid "60ffa511-5385-4cb2-b956-77071762362d")
+	)
+	(wire
+		(pts
+			(xy 337.82 163.83) (xy 326.39 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c71537-4320-4cf3-9ef5-947ac2609ff8")
 	)
 	(wire
 		(pts
@@ -8656,16 +8646,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 184.15) (xy 337.82 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c89f6f-64bf-461e-93c4-3b0813b12264")
-	)
-	(wire
-		(pts
 			(xy 309.88 129.54) (xy 313.69 129.54)
 		)
 		(stroke
@@ -8696,13 +8676,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 168.91) (xy 337.82 168.91)
+			(xy 351.79 184.15) (xy 354.33 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6af56b94-8ad5-45be-937f-bb5f8408ac95")
+		(uuid "6c2cbcc5-756d-4aeb-bc39-7f905f618a94")
 	)
 	(wire
 		(pts
@@ -8723,16 +8703,6 @@
 			(type default)
 		)
 		(uuid "6e736433-60d4-4108-bdfa-bcd09e79faa2")
-	)
-	(wire
-		(pts
-			(xy 326.39 163.83) (xy 337.82 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3a3625-e074-453e-a4fc-4ebcd9262013")
 	)
 	(wire
 		(pts
@@ -8856,6 +8826,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 189.23) (xy 332.74 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787ebb44-26e8-4ac3-ab36-0db357d1c8d7")
+	)
+	(wire
+		(pts
 			(xy 44.45 36.83) (xy 44.45 35.56)
 		)
 		(stroke
@@ -8863,6 +8843,16 @@
 			(type default)
 		)
 		(uuid "78d52426-2d78-4dde-93be-dc01cd5289ce")
+	)
+	(wire
+		(pts
+			(xy 351.79 189.23) (xy 353.06 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dd0a9f-81b3-4a71-a2f6-1685267e0936")
 	)
 	(wire
 		(pts
@@ -9163,16 +9153,6 @@
 			(type default)
 		)
 		(uuid "8d5a9242-60fd-4e0e-bdf2-542441f5eeec")
-	)
-	(wire
-		(pts
-			(xy 353.06 163.83) (xy 358.14 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d89bc14-b4c9-4014-af4f-8e47733dcd00")
 	)
 	(wire
 		(pts
@@ -9976,6 +9956,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 168.91) (xy 332.74 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec956d5-7a14-4e9f-970c-e64efac18cbb")
+	)
+	(wire
+		(pts
 			(xy 132.08 55.88) (xy 146.05 55.88)
 		)
 		(stroke
@@ -10306,6 +10296,26 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 184.15) (xy 323.85 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4a9ca7-0661-4e17-a12b-8712e4fdda41")
+	)
+	(wire
+		(pts
+			(xy 332.74 146.05) (xy 332.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa6ac1a-bed3-4778-bcf0-44d3e04cc49c")
+	)
+	(wire
+		(pts
 			(xy 309.88 218.44) (xy 314.96 218.44)
 		)
 		(stroke
@@ -10604,7 +10614,7 @@
 		)
 		(uuid "23e09e7b-fb89-4d99-becd-8ccbd0a95bc9")
 	)
-	(label "485B"
+	(label "485B-"
 		(at 383.54 49.53 0)
 		(effects
 			(font
@@ -10724,7 +10734,7 @@
 		)
 		(uuid "4890f5d5-35d3-4b70-809d-bffea5f937fa")
 	)
-	(label "485A"
+	(label "485A+"
 		(at 46.99 68.58 0)
 		(effects
 			(font
@@ -10914,7 +10924,7 @@
 		)
 		(uuid "6fc55ee9-8880-41f1-8a4e-a1cc88e58dad")
 	)
-	(label "485A"
+	(label "485A+"
 		(at 383.54 52.07 0)
 		(effects
 			(font
@@ -11334,7 +11344,7 @@
 		)
 		(uuid "dfdf6e7b-8948-4870-aae0-45bec6bf0e2a")
 	)
-	(label "485B"
+	(label "485B-"
 		(at 46.99 63.5 0)
 		(effects
 			(font
@@ -12038,7 +12048,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "11c3894d-3657-49f7-9878-3135679b5bae")
 		(property "Reference" "R13"
@@ -12057,7 +12067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 86.868 90)
 			(effects
 				(font
@@ -12242,7 +12252,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "17947779-3d98-413f-b947-89649da6fed3")
 		(property "Reference" "R19"
@@ -12261,7 +12271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 317.5 170.688 90)
 			(effects
 				(font
@@ -13983,7 +13993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4670586c-3095-4190-adfa-a545eafc21e1")
-		(property "Reference" "U2"
+		(property "Reference" "485trans1"
 			(at 339.09 36.83 0)
 			(effects
 				(font
@@ -14055,7 +14065,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U2")
+					(reference "485trans1")
 					(unit 1)
 				)
 			)
@@ -14138,7 +14148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c8220ba-eaf2-4796-8c8b-f95cd23d12d1")
-		(property "Reference" "U5"
+		(property "Reference" "OptoOut1"
 			(at 139.7 233.68 0)
 			(effects
 				(font
@@ -14235,7 +14245,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U5")
+					(reference "OptoOut1")
 					(unit 3)
 				)
 			)
@@ -14321,8 +14331,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f54e794-c6e8-40ab-841d-8fd33d8859bf")
-		(property "Reference" "LED1"
-			(at 314.96 73.406 0)
+		(property "Reference" "Status1"
+			(at 314.96 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,7 +14441,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "LED1")
+					(reference "Status1")
 					(unit 1)
 				)
 			)
@@ -14583,8 +14593,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5647c809-b4aa-482e-b546-d80410479751")
-		(property "Reference" "U4"
-			(at 336.55 137.16 0)
+		(property "Reference" "OptoIn1"
+			(at 345.694 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14680,7 +14690,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U4")
+					(reference "OptoIn1")
 					(unit 2)
 				)
 			)
@@ -15509,7 +15519,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "6eed4edb-b8d0-47f2-9d09-f2825fe4a189")
 		(property "Reference" "R4"
@@ -15662,7 +15672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 185.928 90)
 			(effects
 				(font
@@ -15912,8 +15922,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78c20e5d-71bf-4113-b9f4-d8f4d787ac0b")
-		(property "Reference" "LED2"
-			(at 314.96 83.82 0)
+		(property "Reference" "Status2"
+			(at 315.214 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,7 +16032,7 @@
 		(instances
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "LED2")
+					(reference "Status2")
 					(unit 1)
 				)
 			)
@@ -16507,15 +16517,15 @@
 	)
 	(symbol
 		(lib_id "Isolator:TLP290-4")
-		(at 345.44 166.37 0)
+		(at 344.17 186.69 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "803bdfb2-1265-4e38-a79e-ffb7a5e30abd")
-		(property "Reference" "U4"
-			(at 337.058 159.766 0)
+		(property "Reference" "OptoIn1"
+			(at 343.916 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,7 +16533,7 @@
 			)
 		)
 		(property "Value" "TLP290-4"
-			(at 345.44 160.02 0)
+			(at 344.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,7 +16541,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
-			(at 323.85 171.45 0)
+			(at 322.58 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16552,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4"
-			(at 346.075 166.37 0)
+			(at 344.805 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16552,7 +16562,7 @@
 			)
 		)
 		(property "Description" "Quad AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP16"
-			(at 345.44 166.37 0)
+			(at 344.17 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,7 +16621,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U4")
+					(reference "OptoIn1")
 					(unit 4)
 				)
 			)
@@ -16627,7 +16637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80aa6b33-fe91-4037-82a4-610225cb92ae")
-		(property "Reference" "U5"
+		(property "Reference" "OptoOut1"
 			(at 139.7 260.35 0)
 			(effects
 				(font
@@ -16724,7 +16734,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U5")
+					(reference "OptoOut1")
 					(unit 4)
 				)
 			)
@@ -16807,7 +16817,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "817aadbf-eb28-4747-b82c-2def9c5cb9bc")
 		(property "Reference" "R20"
@@ -16826,7 +16836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 314.96 193.548 90)
 			(effects
 				(font
@@ -16941,7 +16951,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "87f41062-b1c1-44f5-bd42-e8c0663f8a8c")
 		(property "Reference" "R12"
@@ -16960,7 +16970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 81.788 90)
 			(effects
 				(font
@@ -17027,7 +17037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 215.138 90)
 			(effects
 				(font
@@ -17071,16 +17081,15 @@
 	)
 	(symbol
 		(lib_id "Isolator:TLP290-4")
-		(at 345.44 186.69 0)
+		(at 345.44 166.37 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a7e0089-aa84-47fc-ad19-137804864704")
-		(property "Reference" "U4"
-			(at 345.44 177.8 0)
+		(property "Reference" "OptoIn1"
+			(at 344.678 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,7 +17097,7 @@
 			)
 		)
 		(property "Value" "TLP290-4"
-			(at 345.44 180.34 0)
+			(at 345.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17096,7 +17105,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.55x10.3mm_P1.27mm"
-			(at 323.85 191.77 0)
+			(at 323.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17107,7 +17116,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4"
-			(at 346.075 186.69 0)
+			(at 346.075 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +17126,7 @@
 			)
 		)
 		(property "Description" "Quad AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP16"
-			(at 345.44 186.69 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17176,7 +17185,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U4")
+					(reference "OptoIn1")
 					(unit 3)
 				)
 			)
@@ -18396,7 +18405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd3a9b-a487-4575-a182-cdf55e3ab133")
-		(property "Reference" "U5"
+		(property "Reference" "OptoOut1"
 			(at 139.7 177.8 0)
 			(effects
 				(font
@@ -18493,7 +18502,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U5")
+					(reference "OptoOut1")
 					(unit 1)
 				)
 			)
@@ -18644,8 +18653,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b997445e-7b79-4924-bc8e-3b65dc8fe761")
-		(property "Reference" "U4"
-			(at 336.042 113.03 0)
+		(property "Reference" "OptoIn1"
+			(at 345.44 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18741,7 +18750,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U4")
+					(reference "OptoIn1")
 					(unit 1)
 				)
 			)
@@ -18753,7 +18762,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "ba6b4b59-e77c-4821-bbc1-ab0a4bbc8586")
 		(property "Reference" "R11"
@@ -18772,7 +18781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 76.708 90)
 			(effects
 				(font
@@ -19487,7 +19496,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "c4ff62dd-3334-400f-a75e-5dae00aed7e6")
 		(property "Reference" "R3"
@@ -19554,7 +19563,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "c573476d-432a-4bd0-bf01-8b8e5e4e9103")
 		(property "Reference" "R18"
@@ -19573,7 +19582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 317.5 147.828 90)
 			(effects
 				(font
@@ -19885,7 +19894,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "cf40fc64-5b4f-4aa1-b9eb-99fcf698dce4")
 		(property "Reference" "R17"
@@ -19904,7 +19913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 316.23 128.778 90)
 			(effects
 				(font
@@ -20701,7 +20710,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "e278f91a-6801-485f-9834-1d72baef0684")
 		(property "Reference" "R6"
@@ -21053,7 +21062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 268.478 90)
 			(effects
 				(font
@@ -21105,7 +21114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0128e6-2965-4968-88c6-717cb02d6723")
-		(property "Reference" "U5"
+		(property "Reference" "OptoOut1"
 			(at 139.7 207.01 0)
 			(effects
 				(font
@@ -21202,7 +21211,7 @@
 		(instances
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "U5")
+					(reference "OptoOut1")
 					(unit 2)
 				)
 			)
@@ -21214,7 +21223,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "ed4b0318-e31a-4344-bc1b-85033c572e83")
 		(property "Reference" "R14"
@@ -21233,7 +21242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 91.948 90)
 			(effects
 				(font
@@ -21300,7 +21309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 241.808 90)
 			(effects
 				(font
@@ -21629,7 +21638,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "f739ef10-656c-4a8c-b2c4-6a601edf6fdf")
 		(property "Reference" "R5"
