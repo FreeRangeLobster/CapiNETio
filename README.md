@@ -1,9 +1,13 @@
 # CapiNETio
 # CapiNETio
 
-##To Do:
-
+##To Do List:
+- Update all the models
 - Add a new power connector 2 poles
 - Add a switch to allow power from the bus
 - Replace the 2 bus strips for one single one
 - create the layout and angle the in/Out Connectors
+
+
+
+git push -u origin main
