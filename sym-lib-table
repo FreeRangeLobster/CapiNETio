@@ -6,4 +6,5 @@
   (lib (name "LED 553-0122F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/553-0122F/KiCad/553-0122F.kicad_sym")(options "")(descr ""))
   (lib (name "LED Array 551-0207-004F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/LED Array 551-0207-004F/KiCad/551-0207-004F.kicad_sym")(options "")(descr "LED array through hole"))
   (lib (name "DipSw_DHNF04F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/DipSw_DHNF04F/KiCad/DHNF-04F-T-V-T_R.kicad_sym")(options "")(descr "4 pole dip switch smd"))
+  (lib (name "BZX884-C5V1-QYL_Zener")(type "KiCad")(uri "${KIPRJMOD}/CadModels/BZX884-C5V1-QYL_ZenerDiode/BZX884-C5V1-QYL.kicad_sym")(options "")(descr ""))
 )

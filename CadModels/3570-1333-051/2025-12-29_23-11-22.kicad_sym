@@ -83,19 +83,7 @@
 		(symbol "3570-1333-051_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0) (xy 12.7 0)
+					(xy 7.62 0) (xy 17.78 0)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -7.62) (xy 33.02 -7.62)
+					(xy 15.24 5.08) (xy 15.24 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -131,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 2.54) (xy 12.7 0)
+					(xy 15.24 -7.62) (xy 26.67 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -143,7 +131,19 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 2.54) (xy 17.78 2.54)
+					(xy 17.78 2.54) (xy 17.78 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 2.54) (xy 17.78 0)
 				)
 				(stroke
 					(width 0.127)
@@ -311,7 +311,7 @@
 			)
 			(polyline
 				(pts
-					(xy 22.86 2.54) (xy 27.94 2.54)
+					(xy 22.86 2.54) (xy 24.13 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -359,7 +359,7 @@
 			)
 			(polyline
 				(pts
-					(xy 27.94 0) (xy 27.94 2.54)
+					(xy 24.13 0) (xy 24.13 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -371,7 +371,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
+					(xy 26.67 5.08) (xy 15.24 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -383,7 +383,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 0) (xy 27.94 0)
+					(xy 26.67 -7.62) (xy 26.67 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -395,7 +395,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -7.62) (xy 33.02 5.08)
+					(xy 33.02 0) (xy 24.13 0)
 				)
 				(stroke
 					(width 0.127)
@@ -408,7 +408,7 @@
 		)
 		(symbol "3570-1333-051_1_1"
 			(pin passive line
-				(at 0 0 0)
+				(at 7.62 0 0)
 				(length 7.62)
 				(name "1"
 					(effects
@@ -426,7 +426,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 7.62 -5.08 0)
 				(length 7.62)
 				(name "2"
 					(effects
@@ -444,7 +444,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 0 180)
+				(at 34.29 0 180)
 				(length 7.62)
 				(name "4"
 					(effects
@@ -462,7 +462,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -5.08 180)
+				(at 34.29 -5.08 180)
 				(length 7.62)
 				(name "3"
 					(effects

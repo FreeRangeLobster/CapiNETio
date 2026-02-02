@@ -62,13 +62,13 @@ You’ll need 4 resistors (one per input).
 
 
 
-***Inputs:
+***Inputs 5 to 24V. Pin3 inputs needs to be 0V common :
 
 1.5 kΩ, 0.5 W resistor
 5.1 V Zener diode (0.25 W or higher)
 LEDs in series (indicator + opto)
 
-Perfect — with the indicator LED (551-0207-004F) in series with the TLP290 LED and a requirement that it must reliably turn ON already at 5 V, we should bias this a bit stronger than the “borderline” case and still keep it safe at 24 V.
+indicator LED (551-0207-004F) in series with the TLP290 LED and a requirement that it must reliably turn ON already at 5 V, we should bias this a bit stronger than the “borderline” case and still keep it safe at 24 V.
 
 Let’s design it like a proper industrial input.
 
@@ -223,6 +223,29 @@ Vishay AEC‑Q101 5.1 V Zener (automotive) – automotive-grade if you need ru
 
 
 BZX884-C5V1
+
+
+D1 – SS14 / BAT54 (Schottky)
+R1 – 1.5kΩ 0.5W
+ZD1 – 5.1V SMD Zener (SOT-23 or SOD-123)
+R2 – 10kΩ
+LED1 – 551-0207-004F
+LED2 – TLP290
+
+outputs relay, the LED calculations:
+Device	Vf
+551-0207-004F LED	~2.0 V
+TLP290 LED	~1.2 V
+Total	~3.2 V
+
+STM32 output = 3.3 V
+
+⚠️ That leaves only:
+
+3.3 − 3.2 = 0.1 V
+not a good idea to put them in series. so need to be in parallel
+GPIO → 390Ω → TLP290 LED → GND
+GPIO → 1kΩ  → indicator LED → GND
 
 
 
