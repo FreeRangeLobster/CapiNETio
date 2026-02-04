@@ -3,11 +3,11 @@
 
 ##To Do List:
 - Update all models
-- Add a new power connector 2 poles
-- Add a switch to allow power from the bus
-- Replace the 2 bus strips for one single one
-- create the layout and angle the in/Out Connectors
-
+- OK Add a new power connector 2 poles
+- OK Add a switch to allow power from the bus
+- OK Replace the 2 bus strips for one single one
+- OK create the layout and angle the in/Out Connectors
+- Check type of components and pcb constrains
 
 
 git push -u origin main
@@ -240,7 +240,7 @@ Total	~3.2 V
 
 STM32 output = 3.3 V
 
-⚠️ That leaves only:
+⚠️ T.hat leaves only:
 
 3.3 − 3.2 = 0.1 V
 not a good idea to put them in series. so need to be in parallel

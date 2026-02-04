@@ -8,4 +8,5 @@
   (lib (name "LED 551 0207 004F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/LED Array 551-0207-004F/KiCad")(options "")(descr ""))
   (lib (name "DipSW_DHNF04F")(type "KiCad")(uri "${KIPRJMOD}/CadModels/DipSw_DHNF04F/KiCad")(options "")(descr ""))
   (lib (name "BZX884-C5V1-QYL")(type "KiCad")(uri "${KIPRJMOD}/CadModels/BZX884-C5V1-QYL_ZenerDiode")(options "")(descr ""))
+  (lib (name "1963421_2Poles")(type "KiCad")(uri "${KIPRJMOD}/CadModels/1963421_2Poles_Connector/KiCad")(options "")(descr ""))
 )

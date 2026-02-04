@@ -1128,27 +1128,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL"
+		(symbol "BZX884-C5V1-QYL_1"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Z1"
-				(at 7.62 7.62 0)
+			(property "Reference" "Z"
+				(at 10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "BZX884-C5V1-QYL"
-				(at 7.62 5.08 0)
+				(at 10.16 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "BZX884C5V1QYL"
@@ -1172,7 +1174,7 @@
 				)
 			)
 			(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
-				(at -0.254 -3.302 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1230,7 +1232,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BZX884-C5V1-QYL_1_1"
+			(symbol "BZX884-C5V1-QYL_1_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 5.08 0)
@@ -1245,7 +1247,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 -1.524) (xy 5.08 -1.27)
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -1257,7 +1259,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27)
+						(xy 5.08 2.032) (xy 5.08 -2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -1269,7 +1271,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.27) (xy 5.588 1.524)
+						(xy 5.08 2.032) (xy 6.096 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1281,7 +1283,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0)
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1293,7 +1295,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 7.62 0)
+						(xy 12.7 0) (xy 10.16 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1304,7 +1306,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 0 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -1322,172 +1324,9 @@
 					)
 				)
 				(pin passive line
-					(at 11.43 0 180)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2106,7 +1945,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Row_Letter_Last"
+		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2122,7 +1961,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Row_Letter_Last"
+			(property "Value" "Conn_02x05_Counter_Clockwise"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -2148,7 +1987,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2175,7 +2014,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Row_Letter_Last_1_1"
+			(symbol "Conn_02x05_Counter_Clockwise_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 3.81 -6.35)
@@ -2300,14 +2139,14 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_1a"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1a"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2318,14 +2157,14 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_2a"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2a"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,14 +2175,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_3a"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3a"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2354,14 +2193,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_4a"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4a"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2372,14 +2211,14 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_5a"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5a"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2390,14 +2229,14 @@
 				(pin passive line
 					(at 7.62 5.08 180)
 					(length 3.81)
-					(name "Pin_1b"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1b"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2408,14 +2247,14 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 3.81)
-					(name "Pin_2b"
+					(name "Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2b"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2426,14 +2265,14 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 3.81)
-					(name "Pin_3b"
+					(name "Pin_8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3b"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2444,14 +2283,14 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
-					(name "Pin_4b"
+					(name "Pin_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4b"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2462,14 +2301,14 @@
 				(pin passive line
 					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_5b"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5b"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4501,6 +4340,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED 553-0122F:553-0122F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4679,266 +4668,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED Array 551-0207-004F:551-0207-004F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "551-0207-004F"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "5510207004F"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "7.11"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Dialight"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "551-0207-004F"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "551-0207-004F_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -20.32)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "A_GREEN_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "K_GREEN_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "A_GREEN_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "K_GREEN_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "A_GREEN_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "K_GREEN_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "A_GREEN_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "K_GREEN_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8097,6 +7826,16 @@
 		)
 		(uuid "68c10ece-12b1-448f-a832-a91597359584")
 	)
+	(text "Add clamp down zener 5.1V BZX55C5V1, resistor should be 0.5W."
+		(exclude_from_sim no)
+		(at 317.246 211.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0580b9f-ed37-4bc9-ad81-1cba8d025e40")
+	)
 	(text "Inputs"
 		(exclude_from_sim no)
 		(at 291.846 103.124 0)
@@ -8179,6 +7918,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d95a1ba-4594-4ca7-a668-5b71f8771cf9")
+	)
+	(junction
+		(at 261.62 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9868c2-d3e4-432f-80f4-c5fe5791ef92")
 	)
 	(junction
 		(at 120.65 92.71)
@@ -8541,10 +8286,6 @@
 		(uuid "8c1dee0b-982a-4fdb-8521-34ab1e93fef0")
 	)
 	(no_connect
-		(at 41.91 162.56)
-		(uuid "a059165a-1c09-4398-b6f4-741bbc5d1a56")
-	)
-	(no_connect
 		(at 168.91 110.49)
 		(uuid "ab25f97b-7e35-4f2c-93c5-a8f7b2b28e7d")
 	)
@@ -8618,7 +8359,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 146.05) (xy 312.42 146.05)
+			(xy 307.34 146.05) (xy 312.42 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8675,6 +8416,16 @@
 			(type default)
 		)
 		(uuid "086e06b0-0128-4404-ae00-e35e1bbab975")
+	)
+	(wire
+		(pts
+			(xy 189.23 139.7) (xy 189.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d3e2e5-7ab2-4c1f-9ebe-94404de15c98")
 	)
 	(wire
 		(pts
@@ -8738,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 162.56) (xy 104.14 162.56)
+			(xy 88.9 162.56) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8748,7 +8499,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 189.23) (xy 335.28 189.23)
+			(xy 307.34 189.23) (xy 335.28 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8818,7 +8569,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 146.05) (xy 309.88 156.21)
+			(xy 307.34 146.05) (xy 307.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8838,13 +8589,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 74.93) (xy 251.46 71.12)
+			(xy 233.68 67.31) (xy 250.19 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1370c066-f5c2-4680-83d4-d5036dacfc70")
+		(uuid "12f3eff8-4e65-455b-8139-0a02968e3b1d")
 	)
 	(wire
 		(pts
@@ -8858,7 +8609,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 81.28) (xy 29.21 76.2)
+			(xy 29.21 76.2) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9218,16 +8969,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 71.12) (xy 231.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce26954-b7b1-4da5-b27f-bebb6000db9d")
-	)
-	(wire
-		(pts
 			(xy 255.27 30.48) (xy 255.27 34.29)
 		)
 		(stroke
@@ -9378,7 +9119,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 59.69) (xy 48.26 66.04)
+			(xy 48.26 66.04) (xy 48.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9468,6 +9209,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 82.55) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ea4e9d-f4d0-4673-9c1c-49f041262eef")
+	)
+	(wire
+		(pts
 			(xy 111.76 266.7) (xy 113.03 266.7)
 		)
 		(stroke
@@ -9548,7 +9299,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 148.59) (xy 318.77 148.59)
+			(xy 312.42 148.59) (xy 313.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9818,16 +9569,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 161.29) (xy 318.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9ddd19-c021-4b96-a1a4-3264622f9f68")
-	)
-	(wire
-		(pts
 			(xy 130.81 186.69) (xy 130.81 189.23)
 		)
 		(stroke
@@ -9978,6 +9719,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 72.39) (xy 257.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55945774-0220-46ad-bf39-7b48d65a1123")
+	)
+	(wire
+		(pts
 			(xy 232.41 35.56) (xy 232.41 34.29)
 		)
 		(stroke
@@ -10075,16 +9826,6 @@
 			(type default)
 		)
 		(uuid "5a7f970f-c034-4915-8f9b-86b7cab8aa5b")
-	)
-	(wire
-		(pts
-			(xy 256.54 74.93) (xy 251.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b19ccb6-d30e-4705-b418-d6ec380fb0d6")
 	)
 	(wire
 		(pts
@@ -10278,13 +10019,13 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 172.72) (xy 320.04 172.72)
+			(xy 264.16 69.85) (xy 264.16 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67536825-7e2d-48eb-9368-5895050a09dc")
+		(uuid "66cec85b-5372-4914-9d91-c075d9a3def6")
 	)
 	(wire
 		(pts
@@ -10298,7 +10039,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 81.28) (xy 44.45 76.2)
+			(xy 44.45 76.2) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10508,16 +10249,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 71.12) (xy 254 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79cee276-f991-467b-a8c5-09a359b68ded")
-	)
-	(wire
-		(pts
 			(xy 375.92 189.23) (xy 377.19 189.23)
 		)
 		(stroke
@@ -10585,6 +10316,16 @@
 			(type default)
 		)
 		(uuid "7e4eb95f-7ce9-480e-9116-3a12b6563108")
+	)
+	(wire
+		(pts
+			(xy 257.81 73.66) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e85d395-149a-4331-9a93-dd04865ae913")
 	)
 	(wire
 		(pts
@@ -10658,7 +10399,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 58.42) (xy 25.4 66.04)
+			(xy 25.4 66.04) (xy 25.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10745,36 +10486,6 @@
 			(type default)
 		)
 		(uuid "87520a1d-e223-4ac8-8bcb-40424d8a5b23")
-	)
-	(wire
-		(pts
-			(xy 254 72.39) (xy 256.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876d0646-1d2e-4ae1-912b-5cfed61ddc4b")
-	)
-	(wire
-		(pts
-			(xy 314.96 185.42) (xy 320.04 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a155c1-8f7a-40e6-a7c2-55803462a75c")
-	)
-	(wire
-		(pts
-			(xy 262.89 71.12) (xy 254 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87eb0ed2-38e9-4c7a-8f39-df6aca22417e")
 	)
 	(wire
 		(pts
@@ -10948,7 +10659,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 161.29) (xy 309.88 161.29)
+			(xy 313.69 161.29) (xy 307.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11058,6 +10769,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 67.31) (xy 250.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cee4ac2-7bfc-4faa-aedd-7961fe77dbbd")
+	)
+	(wire
+		(pts
 			(xy 137.16 149.86) (xy 137.16 154.94)
 		)
 		(stroke
@@ -11065,6 +10786,16 @@
 			(type default)
 		)
 		(uuid "9cfaf0aa-211b-4dc7-a0b9-1fb9bbfd7822")
+	)
+	(wire
+		(pts
+			(xy 264.16 73.66) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbcc4bc-c3ca-407e-9302-6d5b64d57df9")
 	)
 	(wire
 		(pts
@@ -11095,6 +10826,16 @@
 			(type default)
 		)
 		(uuid "9fcdc86d-6c64-46b3-b3cb-51a25e4e139b")
+	)
+	(wire
+		(pts
+			(xy 261.62 73.66) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0460097-ed0f-4294-a780-38c183571ccb")
 	)
 	(wire
 		(pts
@@ -11148,7 +10889,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 168.91) (xy 312.42 168.91)
+			(xy 307.34 168.91) (xy 312.42 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11488,6 +11229,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 67.31) (xy 233.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be09f359-2b93-4cce-bf9c-10932b6755c0")
+	)
+	(wire
+		(pts
 			(xy 191.77 138.43) (xy 189.23 138.43)
 		)
 		(stroke
@@ -11618,7 +11369,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 158.75) (xy 309.88 158.75)
+			(xy 312.42 158.75) (xy 307.34 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11628,7 +11379,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 163.83) (xy 332.74 163.83)
+			(xy 307.34 163.83) (xy 332.74 163.83)
 		)
 		(stroke
 			(width 0)
@@ -11748,17 +11499,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 71.12) (xy 262.89 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52e5b79-e648-4200-b193-b39f309b4a26")
-	)
-	(wire
-		(pts
-			(xy 57.15 72.39) (xy 57.15 71.12)
+			(xy 57.15 71.12) (xy 57.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -11808,7 +11549,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 189.23) (xy 309.88 173.99)
+			(xy 307.34 189.23) (xy 307.34 173.99)
 		)
 		(stroke
 			(width 0)
@@ -11998,16 +11739,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 71.12) (xy 231.14 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e569ccbd-b90d-4ad8-827e-e889be110303")
-	)
-	(wire
-		(pts
 			(xy 189.23 279.4) (xy 207.01 279.4)
 		)
 		(stroke
@@ -12018,7 +11749,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 171.45) (xy 309.88 171.45)
+			(xy 311.15 171.45) (xy 307.34 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12048,7 +11779,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 166.37) (xy 314.96 166.37)
+			(xy 307.34 166.37) (xy 314.96 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12135,16 +11866,6 @@
 			(type default)
 		)
 		(uuid "ed262b9f-8672-44b5-a281-3b9f3654d7f6")
-	)
-	(wire
-		(pts
-			(xy 231.14 74.93) (xy 233.68 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edeb858b-ec92-4194-9b7f-18fbeb39fcd1")
 	)
 	(wire
 		(pts
@@ -12388,7 +12109,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 162.56) (xy 113.03 162.56)
+			(xy 109.22 162.56) (xy 113.03 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12515,26 +12236,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d3e6538-8828-4229-837b-92b2fb8871cc")
-	)
-	(label "Coi2"
-		(at 137.16 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e9000e0-5dec-4551-a61a-58023a6f9729")
-	)
-	(label "Coi3"
-		(at 138.43 266.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11f71043-33c6-4cc1-a785-3d9454a6c3aa")
 	)
 	(label "InLED_Opto0"
 		(at 334.01 152.4 0)
@@ -13096,16 +12797,6 @@
 		)
 		(uuid "8e8c1ea1-dac6-47ec-ad17-7793092b5df8")
 	)
-	(label "Add clamp down zener 5.1V BZX55C5V1, resistor should be 0.5W."
-		(at 288.29 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9618164b-3b79-4bc9-a1db-2f3610df11db")
-	)
 	(label "GPIO_in1"
 		(at 156.21 77.47 0)
 		(effects
@@ -13347,7 +13038,7 @@
 		(uuid "dfdf6e7b-8948-4870-aae0-45bec6bf0e2a")
 	)
 	(label "GPIO_outRel0"
-		(at 91.44 162.56 0)
+		(at 88.9 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13504,7 +13195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5510207004F"
+		(property "Footprint" "LED 551 0207 004F:5510207004F"
 			(at 274.32 272.72 0)
 			(effects
 				(font
@@ -13755,80 +13446,6 @@
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "Power1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 31.75 173.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "056e532b-08f5-4408-8689-f9236f994335")
-		(property "Reference" "J5"
-			(at 31.115 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWD Prg"
-			(at 31.115 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
-			(at 31.75 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 31.75 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "689ee7bc-f7e8-4397-873f-97404369ad92")
-		)
-		(pin "4"
-			(uuid "ada88219-4024-4307-9281-51ce85c9e7c2")
-		)
-		(pin "3"
-			(uuid "ba127238-7d36-4090-86e3-b85b0b0a9f22")
-		)
-		(pin "1"
-			(uuid "52cb6042-352e-41c7-94c3-e53da2239860")
-		)
-		(instances
-			(project "CapiNetIO"
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14714,6 +14331,127 @@
 		)
 	)
 	(symbol
+		(lib_name "BZX884-C5V1-QYL_1")
+		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
+		(at 314.96 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ab80a0-6228-427c-8995-0864fea20bc3")
+		(property "Reference" "Z2"
+			(at 322.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZX884-C5V1-QYL"
+			(at 322.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BZX884-C5V1-QYL:BZX884C5V1QYL"
+			(at 325.12 266.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
+			(at 325.12 366.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
+			(at 314.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 325.12 566.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 325.12 666.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 325.12 766.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 325.12 866.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
+			(at 325.12 966.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4af17b0-7816-4606-ba14-6f8f6514229f")
+		)
+		(pin "2"
+			(uuid "30b68309-e64f-4703-b3cb-6b4168ea3b37")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "Z2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 101.6 0)
 		(unit 1)
@@ -15328,146 +15066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED Array 551-0207-004F:551-0207-004F")
-		(at 309.88 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fee10e8-ebbb-4708-8962-02700ed23728")
-		(property "Reference" "IN_Leds1"
-			(at 292.862 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "551-0207-004F"
-			(at 290.83 173.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED 551 0207 004F:5510207004F"
-			(at 283.21 251.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 351.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V"
-			(at 309.88 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.11"
-			(at 283.21 551.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 283.21 651.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 283.21 751.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Dialight"
-			(at 283.21 851.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "551-0207-004F"
-			(at 283.21 951.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f2fc156-bc25-4c95-9a66-98c07fc9c8f2")
-		)
-		(pin "7"
-			(uuid "860b1796-a758-43e3-bfda-c88b078de503")
-		)
-		(pin "6"
-			(uuid "ecaea468-4f7c-45ad-9f1d-0f893bd6e6a8")
-		)
-		(pin "3"
-			(uuid "92c12a32-d473-4b46-8447-ac4deed0ea35")
-		)
-		(pin "5"
-			(uuid "d2806ef7-d9af-4e9a-8114-0917ec6b32b4")
-		)
-		(pin "1"
-			(uuid "07c22596-5b1d-4170-ad5f-d86be93d3f1b")
-		)
-		(pin "8"
-			(uuid "c4169601-2938-4447-a763-752e13b7efd7")
-		)
-		(pin "4"
-			(uuid "b518f5e0-4b94-43f6-9af6-9b60d45d89a2")
-		)
-		(instances
-			(project ""
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "IN_Leds1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 99.06 55.88 0)
 		(unit 1)
@@ -15739,6 +15337,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(at 35.56 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393c4cdb-d60f-4d65-9015-27cf4203ed9d")
+		(property "Reference" "J5"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Counter_Clockwise"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a8f9ae1-f160-4245-a2da-83cc48011d59")
+		)
+		(pin "7"
+			(uuid "1c0b5c46-a2c5-4f71-8817-8f31a19b5785")
+		)
+		(pin "1"
+			(uuid "e81b760f-8e19-4ced-8739-c08302d8378c")
+		)
+		(pin "6"
+			(uuid "6cf5cbf3-66d5-4e51-8ae6-85d13f1db1be")
+		)
+		(pin "5"
+			(uuid "9d15288d-76e8-4d05-b1cc-7ed1e5e6dd06")
+		)
+		(pin "9"
+			(uuid "e9eb9664-62d6-4cb3-a087-5c514a003f4b")
+		)
+		(pin "3"
+			(uuid "6632ef49-6c07-4002-9377-5b5a43b131aa")
+		)
+		(pin "8"
+			(uuid "0fb9582a-c126-4682-baf8-b71eac417ff9")
+		)
+		(pin "4"
+			(uuid "9f4cec1e-edb3-48a8-8495-7d91f4dd17c1")
+		)
+		(pin "10"
+			(uuid "5a5b3d93-5814-4f1f-9aff-972d89557f98")
+		)
+		(instances
+			(project ""
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 90.17 0)
 		(unit 1)
@@ -15953,73 +15643,6 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "Inputs1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 256.54 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c37cb1a-7266-492c-8b64-82d794950162")
-		(property "Reference" "USBpwr1"
-			(at 257.556 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 257.556 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_S2P-VH_1x02_P3.96mm_Horizontal"
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3613dfbc-b585-43f8-bec1-39b8cf75705d")
-		)
-		(pin "1"
-			(uuid "bbee0cd2-e7c6-43ee-b7bc-31206bf776b6")
-		)
-		(instances
-			(project ""
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "USBpwr1")
 					(unit 1)
 				)
 			)
@@ -16635,6 +16258,147 @@
 		)
 	)
 	(symbol
+		(lib_name "551-0207-004F_1")
+		(lib_id "LED Array 551-0207-004F:551-0207-004F")
+		(at 307.34 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eafb826-9ed2-47de-bd95-5e78527505fd")
+		(property "Reference" "LED_Outputs2"
+			(at 300.736 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "551-0207-004F"
+			(at 300.482 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED 551 0207 004F:5510207004F"
+			(at 280.67 251.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 351.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green Right Angle PCB LED Indicator, 4 LEDs, Through Hole 2.1 V"
+			(at 307.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.11"
+			(at 280.67 551.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 280.67 651.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 280.67 751.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dialight"
+			(at 280.67 851.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "551-0207-004F"
+			(at 280.67 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3bf94287-5f49-4407-85b9-d8e6f62e4fc0")
+		)
+		(pin "3"
+			(uuid "9330ae41-d277-42cb-a08e-6dd984575c22")
+		)
+		(pin "8"
+			(uuid "7e01feba-c045-4b91-bd88-807512ed6213")
+		)
+		(pin "4"
+			(uuid "0031fcaa-1328-479a-a143-878a8db42e46")
+		)
+		(pin "6"
+			(uuid "45b52362-3b98-46c7-89db-8c403887bc29")
+		)
+		(pin "2"
+			(uuid "cfe04a12-07b2-4d8e-923d-a2ba7e49c1b2")
+		)
+		(pin "7"
+			(uuid "b232fc0d-18e1-473f-96d2-13a190cb842a")
+		)
+		(pin "1"
+			(uuid "be143267-9fdc-40f7-880c-2b1b78082da8")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "LED_Outputs2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED 553-0122F:553-0122F")
 		(at 327.66 74.93 0)
 		(mirror y)
@@ -16755,6 +16519,72 @@
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "Status1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 257.81 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50250b76-e340-43ad-9241-071e0cc29cc0")
+		(property "Reference" "#FLG02"
+			(at 257.81 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_USB"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7591a543-a5ea-4932-a9fd-c55b4c604d05")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -17105,7 +16935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RELAY4_3570-1333-051_COM"
+		(property "Footprint" "3570-1419-054:RELAY4_3570-1333-051_COM"
 			(at 189.23 245.11 0)
 			(effects
 				(font
@@ -17216,6 +17046,127 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BZX884-C5V1-QYL_1")
+		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
+		(at 313.69 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598d18d0-c3a1-4f6d-836d-31f7a389c8cc")
+		(property "Reference" "Z1"
+			(at 321.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZX884-C5V1-QYL"
+			(at 321.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BZX884-C5V1-QYL:BZX884C5V1QYL"
+			(at 323.85 254.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
+			(at 323.85 354.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
+			(at 313.69 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 323.85 554.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 323.85 654.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 323.85 754.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 323.85 854.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
+			(at 323.85 954.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68904185-3b3d-4840-935d-dbf4bca88058")
+		)
+		(pin "2"
+			(uuid "93274ec4-ffd2-44c5-b243-ffefa1459000")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -17448,7 +17399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1963421"
+		(property "Footprint" "1963421_2Poles:1963421"
 			(at 133.02 128.27 0)
 			(effects
 				(font
@@ -18153,15 +18104,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 162.56 90)
+		(at 105.41 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "72e0e328-a434-41ca-a13b-bfce6165781f")
 		(property "Reference" "R_31"
-			(at 107.95 164.846 90)
+			(at 105.41 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18169,7 +18120,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 107.442 160.528 90)
+			(at 104.902 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,7 +18128,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 164.338 90)
+			(at 105.41 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 162.56 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18146,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 162.56 0)
+			(at 105.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18670,6 +18621,127 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BZX884-C5V1-QYL_1")
+		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
+		(at 313.69 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae69976-dd5f-425d-bc9a-2ca66db871cd")
+		(property "Reference" "Z5"
+			(at 321.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZX884-C5V1-QYL"
+			(at 321.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BZX884-C5V1-QYL:BZX884C5V1QYL"
+			(at 323.85 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
+			(at 323.85 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
+			(at 313.69 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 323.85 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 323.85 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 323.85 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 323.85 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
+			(at 323.85 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a06ca0-f29f-40b6-ad01-73d0fa23da10")
+		)
+		(pin "2"
+			(uuid "b625d9b6-6b8b-4b31-8a67-0f23ba7f988d")
+		)
+		(instances
+			(project ""
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "Z5")
 					(unit 1)
 				)
 			)
@@ -19398,7 +19470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RELAY4_3570-1333-051_COM"
+		(property "Footprint" "3570-1419-054:RELAY4_3570-1333-051_COM"
 			(at 189.23 176.53 0)
 			(effects
 				(font
@@ -19588,7 +19660,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "8a521900-7116-4082-8b74-d459a5da92d4")
 		(property "Reference" "R32"
@@ -19757,125 +19829,6 @@
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "OptoIn1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
-		(at 318.77 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b639c1b-06a2-4bae-aab9-d22d23234bdd")
-		(property "Reference" "Z4"
-			(at 320.802 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BZX884-C5V1-QYL"
-			(at 325.12 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BZX884C5V1QYL"
-			(at 328.93 279.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
-			(at 328.93 379.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
-			(at 318.516 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 328.93 579.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 328.93 679.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 328.93 779.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 328.93 879.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
-			(at 328.93 979.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d7750a9-dbe4-47c8-8ea3-2261369ed518")
-		)
-		(pin "2"
-			(uuid "d292aa75-6d99-412b-a6c7-5ee3e6803164")
-		)
-		(instances
-			(project "CapiNetIO"
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "Z4")
-					(unit 1)
 				)
 			)
 		)
@@ -20431,7 +20384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 240.03 57.15 0)
 			(effects
 				(font
@@ -20606,244 +20559,6 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
-		(at 317.5 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a6e2281-56fa-4f57-b854-976d560de5cc")
-		(property "Reference" "Z1"
-			(at 319.532 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BZX884-C5V1-QYL"
-			(at 323.088 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BZX884C5V1QYL"
-			(at 327.66 242.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
-			(at 327.66 342.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
-			(at 317.246 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 327.66 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 327.66 642.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 327.66 742.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 327.66 842.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
-			(at 327.66 942.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2368779-8ed3-48cc-a4ce-662357ce29b5")
-		)
-		(pin "2"
-			(uuid "4106f7c8-a0a2-4b57-919a-e02c297e03b8")
-		)
-		(instances
-			(project ""
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
-		(at 318.77 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bd79ec1-c732-417a-bb0b-faa6ebea8a65")
-		(property "Reference" "Z3"
-			(at 320.802 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BZX884-C5V1-QYL"
-			(at 325.374 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BZX884C5V1QYL"
-			(at 328.93 266.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
-			(at 328.93 366.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
-			(at 318.516 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 328.93 566.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 328.93 666.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 328.93 766.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 328.93 866.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
-			(at 328.93 966.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bb3fc6b-7e64-425b-932d-190e2f84519b")
-		)
-		(pin "2"
-			(uuid "c9b7de6c-34b9-4703-99aa-abcf08365809")
-		)
-		(instances
-			(project "CapiNetIO"
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "Z3")
 					(unit 1)
 				)
 			)
@@ -21703,7 +21418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RELAY4_3570-1333-051_COM"
+		(property "Footprint" "3570-1419-054:RELAY4_3570-1333-051_COM"
 			(at 189.23 142.24 0)
 			(effects
 				(font
@@ -21928,6 +21643,127 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "R_47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BZX884-C5V1-QYL_1")
+		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
+		(at 314.96 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4424e9d-41af-4a8f-a411-b3c60690fb53")
+		(property "Reference" "Z3"
+			(at 322.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZX884-C5V1-QYL"
+			(at 322.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BZX884-C5V1-QYL:BZX884C5V1QYL"
+			(at 325.12 279.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
+			(at 325.12 379.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
+			(at 314.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 325.12 579.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 325.12 679.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 325.12 779.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 325.12 879.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
+			(at 325.12 979.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0487db03-cc6c-44d6-afdb-70edca364c12")
+		)
+		(pin "2"
+			(uuid "0d995024-9d71-4491-ba72-410ca1423708")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "Z3")
 					(unit 1)
 				)
 			)
@@ -22980,6 +22816,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 255.27 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7840b92-5b6a-4c29-a69c-eb30706b4a07")
+		(property "Reference" "JP1"
+			(at 255.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JumperPWR"
+			(at 255.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "329740c8-8000-4bd2-9e0e-01ff5288dd3d")
+		)
+		(pin "1"
+			(uuid "4150cf0a-b6b9-4a59-af60-00eb2bde0263")
+		)
+		(instances
+			(project ""
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 250.19 54.61 0)
 		(unit 1)
@@ -23383,7 +23287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 138.43 0)
+		(at 189.23 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23392,7 +23296,7 @@
 		(fields_autoplaced yes)
 		(uuid "d59abdf7-3d48-4316-bbad-216c4c057e83")
 		(property "Reference" "#PWR01"
-			(at 189.23 144.78 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23401,7 +23305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 143.51 0)
+			(at 189.23 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23410,7 +23314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 138.43 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23419,7 +23323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 138.43 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23428,7 +23332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 138.43 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23855,125 +23759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BZX884-C5V1-QYL_Zener:BZX884-C5V1-QYL")
-		(at 317.5 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd987bf0-197f-47ac-8110-944306dd5dae")
-		(property "Reference" "Z2"
-			(at 319.786 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BZX884-C5V1-QYL"
-			(at 324.612 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BZX884C5V1QYL"
-			(at 327.66 254.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf"
-			(at 327.66 354.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2"
-			(at 317.246 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 327.66 554.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 327.66 654.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 327.66 754.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 327.66 854.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZX884-C5V1-QYL"
-			(at 327.66 954.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "405cc45d-ba54-4c54-83fe-12ef4912808f")
-		)
-		(pin "2"
-			(uuid "a4da560d-f588-4c00-9814-4a5ac2615aad")
-		)
-		(instances
-			(project "CapiNetIO"
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "Z2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 370.84 43.18 0)
 		(unit 1)
@@ -24203,7 +23988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RELAY4_3570-1333-051_COM"
+		(property "Footprint" "3570-1419-054:RELAY4_3570-1333-051_COM"
 			(at 189.23 208.28 0)
 			(effects
 				(font
@@ -24658,7 +24443,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "ecce6606-ffbc-4c86-8fab-788772b36fee")
 		(property "Reference" "R34"
@@ -24905,7 +24690,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "eededa32-ee27-4aa6-b88e-407c24ba49de")
 		(property "Reference" "R33"
@@ -25035,7 +24820,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 262.89 69.85 0)
+		(at 264.16 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25044,7 +24829,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef0e7a0a-a041-49b6-846a-479ff6584bea")
 		(property "Reference" "#PWR012"
-			(at 262.89 73.66 0)
+			(at 264.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25053,7 +24838,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 262.89 64.77 0)
+			(at 264.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25061,7 +24846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 69.85 0)
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25070,7 +24855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 69.85 0)
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25079,7 +24864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 262.89 69.85 0)
+			(at 264.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25230,98 +25015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Row_Letter_Last")
-		(at 35.56 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5646675-ccc3-4d16-8775-cb7a203778e2")
-		(property "Reference" "InterPCB_Bus1"
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Row_Letter_Last"
-			(at 36.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2a"
-			(uuid "0ff21d16-aa2b-4332-a762-026371d5a4b8")
-		)
-		(pin "4b"
-			(uuid "e6d2484d-1d98-4af0-9a46-6c8c8b88494a")
-		)
-		(pin "3b"
-			(uuid "2abe7c1a-4375-40af-b297-682f6e7d22c7")
-		)
-		(pin "4a"
-			(uuid "576a81c0-cff7-41c7-9d47-706c4051e116")
-		)
-		(pin "3a"
-			(uuid "3e47aeb9-8a88-4791-89c4-2952edce78b8")
-		)
-		(pin "1b"
-			(uuid "46cdcf1c-6f9c-4d1e-8749-7537ddad70fc")
-		)
-		(pin "1a"
-			(uuid "1d9aba29-ab47-4928-a043-5a30a844bc4b")
-		)
-		(pin "5a"
-			(uuid "7d05644a-8b25-4d08-a0c3-2685261e13c7")
-		)
-		(pin "2b"
-			(uuid "0dced2cc-e67c-455c-ae4c-73a7f167111c")
-		)
-		(pin "5b"
-			(uuid "dc03d2d8-8a3e-4abc-8ab9-3265803fe8e4")
-		)
-		(instances
-			(project ""
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "InterPCB_Bus1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 384.81 82.55 90)
 		(unit 1)
@@ -25414,7 +25107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 237.49 105.41 0)
 			(effects
 				(font
