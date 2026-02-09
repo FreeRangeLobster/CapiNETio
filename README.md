@@ -3,11 +3,12 @@
 
 ##To Do List:
 - Update all models
-- OK Add a new power connector 2 poles
-- OK Add a switch to allow power from the bus
-- OK Replace the 2 bus strips for one single one
-- OK create the layout and angle the in/Out Connectors
-- Check type of components and pcb constrains
+✔️ OK Add a new power connector 2 poles
+✔️ OK Add a switch to allow power from the bus
+✔️ OK Replace the 2 bus strips for one single one
+✔️ OK create the layout and angle the in/Out Connectors
+✔️ OK Check type of components and pcb constrains
+🔥  Show pull-up vs pull-down drive best practice
 
 
 git push -u origin main
@@ -20,7 +21,17 @@ Output current sunk by any I/O and control pin 25
 Output current sourced by any I/Os and control pin - 25
 
 LED current consumption
-20ma
+10ma
+
+Kicad tutorial stm32
+https://www.youtube.com/watch?v=aVUqaB0IMh4
+KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65
+
+
+
+
+
+
 
 ***LED indicators
 Typical LED (553-0122F – red indicator)
@@ -33,30 +44,27 @@ At 10 mA:
 R = (3.3 − 2.0) / 0.01 = 130 Ω
 At 5 mA (recommended for MCU safety):
 R = (3.3 − 2.0) / 0.005 = 260 Ω
-✅ Best real-world values
+
+Best real-world values
 Current	Resistor
 ~10 mA	150 Ω
 ~6 mA	220 Ω
 ~4 mA	330 Ω
-👉 I’d use 220 Ω — bright enough and easy on the STM32 pin
-👉 330 Ω if you want conservative current
+use 220 Ω — bright enough and easy on the STM32 pin
+   330 Ω if you want conservative current
 Wiring
 PA4 → resistor → LED → GND
 (or LED to 3.3 V and pin sinks current — both fine)
-⚠️ Important STM32 tip
+⚠️ Important STM32
 Try to keep:
 ≤ 8 mA per pin
 ≤ 100 mA total for the whole GPIO port
-If you want, I can:
-✔️ Check LED datasheet current rating
-✔️ Confirm STM32 pin limits exactly
-✔️ Show pull-up vs pull-down drive best practice
 
 ***Dip Switch
 10 kΩ pull-up resistors (standard value)
 Per input:
 3.3V ── 10kΩ ── GPIO pin ── switch ── GND
-You’ll need 4 resistors (one per input).
+
 
 
 
@@ -70,9 +78,7 @@ LEDs in series (indicator + opto)
 
 indicator LED (551-0207-004F) in series with the TLP290 LED and a requirement that it must reliably turn ON already at 5 V, we should bias this a bit stronger than the “borderline” case and still keep it safe at 24 V.
 
-Let’s design it like a proper industrial input.
-
-🔧 Known drops (worst-case friendly)
+ Known drops (worst-case friendly)
 
 Typical at a few mA:
 
@@ -117,7 +123,7 @@ I ≈ (24 − 5.1) / 1.5k ≈ 12.6 mA
 
 Still within safe continuous LED current.
 
-🔥 Power check (important)
+Power check (important)
 
 Resistor:
 
@@ -140,22 +146,20 @@ Input side:
 🟢 5.1 V Zener diode (0.25 W or higher)
 🟢 LEDs in series (indicator + opto)
 
-📌 This gives you:
+📌 Conclusion
 
 ✔ Turns ON at 5 V every time
 ✔ Safe at 24 V continuously
 ✔ Good noise margin
 ✔ Long LED life
 
-If you’d like I can:
-
+Good to Add:
 ✔️ Add reverse polarity protection diode
 ✔️ Add surge suppressor (TVS)
 ✔️ Show exact schematic symbol placement
 
-Just say — this is shaping up like a professional PLC input channel 💪
 
-what zener smd zener diosde to use
+Zener options:
 
 Here are some **good SMD Zener diode options you can use as your 5.1 V clamp on the input side of your optocoupler circuit (to clamp voltage around ~5.1 V for a 1.5 kΩ series resistor):
 
@@ -218,7 +222,7 @@ Vishay AEC‑Q101 5.1 V Zener (automotive) – automotive-grade if you need ru
 📌 How to choose
 
 ✔ For typical PCB input clamping and currents ~5-10 mA: go with BZX884-C5V1 or MMBZ5231ELT1G in SOT-23 — they are small, cheap, and easy to place.
-✔ If you want more power handling or are worried about surges, pick a 500 mW part like ROHM or larger packages.
+✔ For power handling or are worried about surges, pick a 500 mW part like ROHM or larger packages.
 
 
 

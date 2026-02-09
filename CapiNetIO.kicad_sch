@@ -3170,12 +3170,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:5KPxxCA"
+		(symbol "Diode:ESD5Zxx"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3189,7 +3188,7 @@
 					)
 				)
 			)
-			(property "Value" "5KPxxCA"
+			(property "Value" "ESD5Zxx"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -3197,8 +3196,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
-				(at 0 -5.08 0)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3206,7 +3205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3215,7 +3214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5000W bidirectional Transient Voltage Suppressor, P-600"
+			(property "Description" "ESD Protection Diode, SOD-523"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3224,7 +3223,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
+			(property "ki_keywords" "esd tvs unidirectional diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3233,7 +3232,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D?P600*"
+			(property "ki_fp_filters" "D?SOD?523*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3242,22 +3241,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "5KPxxCA_0_1"
+			(symbol "ESD5Zxx_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3281,7 +3268,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3292,11 +3279,11 @@
 					)
 				)
 			)
-			(symbol "5KPxxCA_1_1"
+			(symbol "ESD5Zxx_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3314,7 +3301,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7878,12 +7865,6 @@
 		(uuid "e440e14b-4369-4054-abf9-9b2c99405de6")
 	)
 	(junction
-		(at 374.65 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00cbbb6f-b2d7-4ed4-8697-ec02efd1b5e8")
-	)
-	(junction
 		(at 160.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8064,6 +8045,12 @@
 		(uuid "69dffbc7-dd88-4e29-9dd5-d090c7c6c444")
 	)
 	(junction
+		(at 374.65 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d291df1-f709-40d4-8c13-75d8693c4513")
+	)
+	(junction
 		(at 360.68 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8142,6 +8129,12 @@
 		(uuid "c1a33c6a-7d7b-4b84-a6e9-f7bc12745454")
 	)
 	(junction
+		(at 381 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c256cd64-77d0-419c-b27d-130817d7846f")
+	)
+	(junction
 		(at 189.23 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8206,12 +8199,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f41f66f5-5d88-4862-b274-522b9c34a12b")
-	)
-	(junction
-		(at 381 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4e629f1-f3d2-490f-8c59-4b6d6e67edef")
 	)
 	(no_connect
 		(at 209.55 115.57)
@@ -9649,6 +9636,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 49.53) (xy 383.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5239b3af-9fc8-4b68-89f0-4fec08255e5c")
+	)
+	(wire
+		(pts
 			(xy 186.69 44.45) (xy 186.69 43.18)
 		)
 		(stroke
@@ -10699,6 +10696,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 52.07) (xy 383.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9366e9f3-2981-4fcb-8e78-93bf24222534")
+	)
+	(wire
+		(pts
 			(xy 162.56 193.04) (xy 147.32 193.04)
 		)
 		(stroke
@@ -10999,16 +11006,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 52.07) (xy 383.54 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa53b513-3088-4bfb-8d72-6e8357ba197a")
-	)
-	(wire
-		(pts
 			(xy 154.94 87.63) (xy 168.91 87.63)
 		)
 		(stroke
@@ -11266,16 +11263,6 @@
 			(type default)
 		)
 		(uuid "beb97913-b784-46b3-b4bf-aad701d289b9")
-	)
-	(wire
-		(pts
-			(xy 374.65 49.53) (xy 383.54 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0467b1e-d7c4-4841-bdd1-398a3e706adf")
 	)
 	(wire
 		(pts
@@ -13750,7 +13737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 219.4052 43.18 0)
 			(effects
 				(font
@@ -14054,76 +14041,6 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:5KPxxCA")
-		(at 374.65 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1306249a-58d4-4aae-80c4-d0f61bb6b7d8")
-		(property "Reference" "D6"
-			(at 377.19 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5KPxxCA"
-			(at 377.19 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
-			(at 379.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
-			(at 374.65 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5000W bidirectional Transient Voltage Suppressor, P-600"
-			(at 374.65 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd1d0d04-cbe2-43ab-8dc0-4c30dccbabd5")
-		)
-		(pin "1"
-			(uuid "692fd90d-7daf-4c51-9451-f17a6494f154")
-		)
-		(instances
-			(project ""
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14693,7 +14610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 43.18 0)
 			(effects
 				(font
@@ -15092,7 +15009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 59.69 0)
 			(effects
 				(font
@@ -15162,7 +15079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 43.18 0)
 			(effects
 				(font
@@ -15455,7 +15372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 93.98 0)
 			(effects
 				(font
@@ -16215,7 +16132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9852 43.18 0)
 			(effects
 				(font
@@ -16685,7 +16602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 371.8052 43.18 0)
 			(effects
 				(font
@@ -17587,7 +17504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.5852 93.98 0)
 			(effects
 				(font
@@ -17831,6 +17748,76 @@
 			(project "CapiNetIO"
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "R_38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD5Zxx")
+		(at 381 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bef95d7-83f7-457f-9998-73889360b69a")
+		(property "Reference" "D5"
+			(at 383.54 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5Zxx"
+			(at 383.54 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 376.555 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 381 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 381 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "939d9489-cb32-4faf-a9b0-5fb41066e86f")
+		)
+		(pin "1"
+			(uuid "cce5d04e-e6ca-4e8b-aa18-1b3c7e97f1b5")
+		)
+		(instances
+			(project ""
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20100,6 +20087,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ESD5Zxx")
+		(at 374.65 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91403fcb-a2d0-48e5-84a6-8e20eaca7cb9")
+		(property "Reference" "D6"
+			(at 377.19 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5Zxx"
+			(at 377.19 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 370.205 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 374.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 374.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa109463-b7ab-4d3a-a5f6-d9b62e9e847c")
+		)
+		(pin "1"
+			(uuid "584cfe79-856e-4bb6-8c02-071e0cefccf9")
+		)
+		(instances
+			(project "CapiNetIO"
+				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 363.22 35.56 0)
 		(unit 1)
@@ -21001,7 +21058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 41.91 0)
 			(effects
 				(font
@@ -22569,7 +22626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 43.18 0)
 			(effects
 				(font
@@ -22606,76 +22663,6 @@
 			(project ""
 				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:5KPxxCA")
-		(at 381 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c31e589a-8283-4b56-9f06-63173dc68b49")
-		(property "Reference" "D7"
-			(at 383.54 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5KPxxCA"
-			(at 383.54 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
-			(at 386.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
-			(at 381 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5000W bidirectional Transient Voltage Suppressor, P-600"
-			(at 381 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4a10950-2a06-4fc4-9fef-cf1ea8bba386")
-		)
-		(pin "1"
-			(uuid "e9352243-defa-4376-9d6e-12ad35a71d14")
-		)
-		(instances
-			(project "CapiNetIO"
-				(path "/1a5652bf-ba49-4248-8cd9-02a29183ef4e"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -23039,7 +23026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.0452 43.18 0)
 			(effects
 				(font
@@ -25333,7 +25320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 310.8452 43.18 0)
 			(effects
 				(font
