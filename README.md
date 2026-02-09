@@ -1,17 +1,22 @@
 # CapiNETio
-# CapiNETio
+
 
 ##To Do List:
-- Update all models
-✔️ OK Add a new power connector 2 poles
-✔️ OK Add a switch to allow power from the bus
-✔️ OK Replace the 2 bus strips for one single one
-✔️ OK create the layout and angle the in/Out Connectors
-✔️ OK Check type of components and pcb constrains
-🔥  Show pull-up vs pull-down drive best practice
+* [x]Update all models
+*[x] OK Add a new power connector 2 poles
+*[x] OK Add a switch to allow power from the bus
+*[x] OK Replace the 2 bus strips for one single one
+*[x] OK create the layout and angle the in/Out Connectors
+*[x] OK Check type of components and pcb constrains
+*[]🔥  Show pull-up vs pull-down drive best practice
 
 
-git push -u origin main
+# Microcontroller
+
+***Dip Switch
+10 kΩ pull-up resistors (standard value)
+Per input:
+3.3V ── 10kΩ ── GPIO pin ── switch ── GND
 
 Microcontroller output max per pin 
 
@@ -22,15 +27,6 @@ Output current sourced by any I/Os and control pin - 25
 
 LED current consumption
 10ma
-
-Kicad tutorial stm32
-https://www.youtube.com/watch?v=aVUqaB0IMh4
-KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65
-
-
-
-
-
 
 
 ***LED indicators
@@ -60,16 +56,39 @@ Try to keep:
 ≤ 8 mA per pin
 ≤ 100 mA total for the whole GPIO port
 
-***Dip Switch
-10 kΩ pull-up resistors (standard value)
-Per input:
-3.3V ── 10kΩ ── GPIO pin ── switch ── GND
+
+## Programming
+
+
+# Power Supply
+
+# RS485 bus
+
+# Serial Comms
+
+## Serial Comms USB
+## Serial Comms
+
+# Outputs
+
+outputs relay, the LED calculations:
+Device	Vf
+551-0207-004F LED	~2.0 V
+TLP290 LED	~1.2 V
+Total	~3.2 V
+
+STM32 output = 3.3 V
+
+⚠️ T.hat leaves only:
+
+3.3 − 3.2 = 0.1 V
+not a good idea to put them in series. so need to be in parallel
+GPIO → 390Ω → TLP290 LED → GND
+GPIO → 1kΩ  → indicator LED → GND
 
 
 
-
-
-
+# Inputs
 ***Inputs 5 to 24V. Pin3 inputs needs to be 0V common :
 
 1.5 kΩ, 0.5 W resistor
@@ -236,20 +255,33 @@ R2 – 10kΩ
 LED1 – 551-0207-004F
 LED2 – TLP290
 
-outputs relay, the LED calculations:
-Device	Vf
-551-0207-004F LED	~2.0 V
-TLP290 LED	~1.2 V
-Total	~3.2 V
 
-STM32 output = 3.3 V
+# Cheat sheet
 
-⚠️ T.hat leaves only:
+git push -u origin main
 
-3.3 − 3.2 = 0.1 V
-not a good idea to put them in series. so need to be in parallel
-GPIO → 390Ω → TLP290 LED → GND
-GPIO → 1kΩ  → indicator LED → GND
+
+
+Kicad tutorial stm32
+https://www.youtube.com/watch?v=aVUqaB0IMh4
+KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
