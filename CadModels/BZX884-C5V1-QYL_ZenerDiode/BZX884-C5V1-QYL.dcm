@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZX884-C5V1-QYL
+D Voltage regulator diodes Zener Diode 5.1 V 365 mW +/-5.88% Surface Mount DFN1006BD-2
+K
+F https://assets.nexperia.com/documents/data-sheet/BZX884_BC-Q_SER.pdf
+$ENDCMP
+#
+#End Doc Library

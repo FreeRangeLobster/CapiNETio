@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1963421"
+   (description "PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 4 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MC 0,5/..-G-THT, pitch: 2.5 mm, mounting: THR soldering, pin layout: Linear pinning, solder pin [P]: 3.8 mm, Stecksystem: MICRO COMBICON - FK-MC 0,5, Locking: without, type of packaging: packed in cardboard, User information and d")
+   (family "CON")
+   (package "1963421")
+   (attribute "Datasheet Link" "http://www.phoenixcontact.com/gb/produkte/1963421")
+   (attribute "Geometry.Height" "8.25mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Phoenix Contact")
+   (attribute "Manufacturer_Part_Number" "1963421")
+   (gate
+    (symbol "1963421")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "1963421"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1963421"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.2 1.2)
+      (pt 4.7 1.2)
+      (pt 4.7 -8.9)
+      (pt -2.2 -8.9)
+      (pt -2.2 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.7 1.2)
+      (pt 4.7 -8.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.7 -8.9)
+      (pt -2.2 -8.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.2 -8.9)
+      (pt -2.2 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.9 0) (pt -2.8 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.75 2.2)
+      (pt 5.7 2.2)
+      (pt 5.7 -9.9)
+      (pt -3.75 -9.9)
+      (pt -3.75 2.2))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.5 0) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.1))
+    (pad (layer INNER) (round 2.1))
+    (pad (layer BCOP) (round 2.1))
+   )
+   (padstack 1
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (square 2.1))
+    (pad (layer INNER) (round 2.1))
+    (pad (layer BCOP) (square 2.1))
+   )
+   (model "1963421.stp"
+    (euler 90 0 90)
+    (offset -6.489999771118164 -13.630000114440918 -5.980000019073486)
+   )
+  )
+ )
+)
